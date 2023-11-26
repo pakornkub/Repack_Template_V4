@@ -1,0 +1,50 @@
+.print {
+  display: none;
+}
+@media print {
+  .no-print {
+    display: none;
+  }
+  .print {
+    display: block;
+  }
+  body,
+  html {
+    width: 10.3cm !important;
+    height: 2.54cm !important;
+    margin: 0;
+  }
+  .print-preview {
+    width: 10.3cm !important;
+    height: 2.54cm !important;
+    margin: 0;
+    /* border: 1px solid #000; */
+  }
+}
+
+.ant-table-thead .ant-table-cell {
+  background-color: #56a8b3;
+  /* color: #ffffff; */
+}
+
+.table-row-light {
+  background-color: #ffffff;
+}
+.table-row-dark {
+  background-color: #fbfbfb;
+}
+
+.labelItem {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 6pt;
+  font-style: bold !important;
+  font-variant: normal;
+  height: 10px;
+}
+.labels {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 5pt;
+  font-style: normal;
+  font-variant: normal;
+  height: 10px;
+}

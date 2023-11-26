@@ -1,0 +1,141 @@
+@font-face {
+  font-family: "Mitr";
+  src: local("Mitr"), url("./fonts/Mitr/Mitr-Light.ttf") format("truetype");
+}
+
+
+@tailwind components;
+
+@layer components {
+  /*Layout*/
+  .bg-pk-template {
+    @apply bg-center 
+    bg-cover 
+    fixed 
+    w-[100vw]
+    h-[100vh]
+    overflow-y-scroll
+    lg:overflow-y-hidden;
+  }
+  .header-pk-template {
+    @apply fixed 
+    z-[1] 
+    w-full;
+  }
+
+  /*Buttom*/
+  .btn-success {
+    @apply bg-green-600 
+    border-green-600
+    hover:bg-green-500
+    hover:border-green-500
+    !important;
+  }
+  .btn-danger {
+    @apply bg-red-500 
+    border-red-500
+    hover:bg-red-400
+    hover:border-red-400
+    !important;
+  }
+  .btn-warning {
+    @apply bg-yellow-500 
+    border-yellow-500
+    hover:bg-yellow-400
+    hover:border-yellow-400
+    !important;
+  }
+  .btn-info {
+    @apply bg-sky-400 
+    border-sky-400
+    hover:bg-sky-300
+    hover:border-sky-300
+    !important;
+  }
+  .btn-secondary {
+    @apply bg-gray-600 
+    border-gray-600
+    hover:bg-gray-500
+    hover:border-gray-500
+    !important;
+  }
+  .btn-dark {
+    @apply bg-gray-700 
+    border-gray-700
+    hover:bg-gray-600
+    hover:border-gray-600
+    !important;
+  }
+
+  /*Status*/
+  .status-complete {
+    @apply bg-green-600 
+    border-green-600
+    !important;
+  }
+  .status-create-tag {
+    @apply bg-yellow-500 
+    border-yellow-500
+    !important;
+  }
+  .status-process {
+    @apply bg-[#178ee9] 
+    border-[#178ee9] 
+    !important;
+  }
+  .status-process-lock {
+    @apply bg-red-500 
+    border-red-500
+    !important;
+  }
+  .status-process-unlock {
+    @apply bg-[#178ee9] 
+    border-[#178ee9] 
+    !important;
+  }
+
+}
+
+@tailwind utilities;
+
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+.ant-table-thead .ant-table-cell {
+  @apply bg-slate-200 
+  text-slate-900
+  font-bold
+  text-[16px]
+  h-16
+  border-stone-300
+  !important;
+}
+
+table,
+.ant-table-container,
+.ant-table-wrapper,
+.ant-table,
+.ant-table-content,
+.ant-table-tbody .ant-table-cell {
+  @apply border-stone-300
+  text-[14px] !important;
+}
+
+.ant-tag {
+  @apply rounded-md !important;
+}
+
+/* .ant-input-affix-wrapper {
+  @apply rounded-md !important;
+} */

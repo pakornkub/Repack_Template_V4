@@ -1,0 +1,28 @@
+/*.logo-template {
+  @apply h-8 
+	m-4 
+	bg-white 
+	bg-opacity-30;
+}*/
+
+.site-layout-template .site-layout-background-template {
+  @apply bg-white;
+}
+
+.trigger-template {
+  @apply p-[0px_24px]
+	text-[18px]
+	leading-[64px]
+	cursor-pointer
+	transition-colors
+	hover:text-sky-600;
+}
+
+.logo-template {
+  @apply h-16 
+	bg-opacity-30
+	items-center
+	justify-center
+	bg-slate-500
+	flex;
+}

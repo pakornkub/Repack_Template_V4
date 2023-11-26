@@ -1,0 +1,130 @@
+.bg-main {
+  @apply bg-[url('../../assets/toto-bg-login.jpg')];
+  /* bg-gradient-to-b from-blue-500 to-blue-800 */
+}
+
+.header-main {
+  @apply bg-gray-500 
+  bg-opacity-50;
+}
+
+.header-main1 {
+  @apply bg-[#011529];
+}
+
+.search-main {
+  @apply rounded-full
+  text-slate-900
+  bg-white
+  bg-opacity-80
+  transition-all
+  hover:bg-white
+  hover:bg-opacity-90
+  focus-within:bg-opacity-90;
+}
+
+.menu-main {
+  @apply h-[30vh]
+  flex
+  items-center
+  justify-center
+  /* border-2 border-solid border-white
+  bg-red-600 */;
+}
+
+.menu-main-sub {
+  @apply w-[90%] 
+  h-[90%]
+  bg-slate-700
+  bg-opacity-20
+  flex
+  items-end
+  cursor-pointer
+  bg-[length:90%_90%]
+  bg-[position:center_center]
+  bg-no-repeat
+  rounded-lg
+  /* border-2 border-solid border-white; */;
+}
+
+.menu-main-sub-title {
+  @apply h-[100px] 
+  w-[100%] 
+  bg-opacity-70 
+  bg-cyan-900
+  flex 
+  text-white 
+  text-xl 
+  font-medium
+  justify-center 
+  items-center
+  rounded-b-lg
+  transition-all
+  hover:rounded-t-lg
+  hover:text-4xl 
+  hover:bg-opacity-90
+  hover:h-full; /* transition-[height] duration-75 ;*/
+}
+
+.user {
+  @apply hidden 
+    rounded-full
+    w-[250px]
+    h-[40px]
+    justify-center
+    bg-[#011529]
+    bg-opacity-60
+    transition-all
+    md:flex
+    hover:bg-opacity-80;
+}
+
+.user-light {
+  @apply hidden 
+    rounded-full
+    w-[250px]
+    h-[40px]
+    justify-center
+    bg-gray-300
+    bg-opacity-50
+    transition-all
+    md:flex
+    hover:bg-opacity-60;
+}
+
+.user-short {
+  @apply flex 
+    rounded-full
+    w-[40px]
+    h-[40px]
+    justify-center
+    bg-[#011529]
+    bg-opacity-60
+    transition-all
+    md:hidden
+    hover:bg-opacity-80;
+}
+
+.user-short-light {
+  @apply flex 
+    rounded-full
+    w-[40px]
+    h-[40px]
+    justify-center
+    bg-gray-300
+    bg-opacity-50
+    transition-all
+    md:hidden
+    hover:bg-opacity-60;
+}
+
+.avatar {
+  @apply mb-1
+  text-slate-900;
+}
+
+.text-user {
+  @apply text-white 
+    text-center
+    w-36;
+}

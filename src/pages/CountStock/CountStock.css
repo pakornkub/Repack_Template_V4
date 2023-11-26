@@ -1,0 +1,12 @@
+.printme { display: none;}
+@media print { 
+    .no-printme  { display: none;}
+    .printme  { display: block;}
+}
+
+.table-row-light {
+    background-color: #ffffff;
+}
+.table-row-dark {
+    background-color: #fbfbfb;
+}

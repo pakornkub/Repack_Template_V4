@@ -1,0 +1,39 @@
+.logo-login {
+  @apply text-center 
+  w-[300px] 
+  h-full 
+  sm:w-full;
+}
+
+.logo2-login {
+  @apply hidden 
+  lg:block 
+  md:hidden
+  sm:hidden
+}
+
+.form-login {
+  @apply bg-gray-500 
+	bg-opacity-10 
+	rounded-[5px] 
+	p-10 
+	w-[300px] 
+	sm:w-[500px];
+}
+
+.btn-form-login {
+  @apply w-full 
+	mt-2;
+}
+
+.content-login {
+  @apply flex 
+	justify-center 
+	items-center 
+	w-full 
+	h-full;
+}
+
+.bg-login {
+  @apply bg-[url('../../assets/toto-bg-login.jpg')];
+}
